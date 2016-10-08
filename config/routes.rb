@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   resources :transactions
   resources :users
-  root 'users#index'
+  root 'users#hello'
 end
