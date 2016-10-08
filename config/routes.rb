@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   resources :transactions
   resources :users
-  root 'users#hello'
+  root 'static_pages#home'
 end
